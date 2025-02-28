@@ -107,6 +107,7 @@ def cleanup():
 
 if __name__ == '__main__':
     try:
-        app.run(debug=True)
+        #app.run(debug=True) development need
+        app.run() # for deployment remove it
     finally:
         cleanup()
